@@ -22,8 +22,16 @@ make prepare
 ```
 
 ### 编辑 Twitter 用户合约
+ 
+1. 把代码clone到本地
 
-编辑 `https://github.com/gear-tech/gear-feeds-channel/blob/master/src/lib.rs` 文件中的 `TODO`
+```
+git clone https://github.com/gear-tech/gear-feeds-channel 
+```
+
+2. 编辑本地代码 
+
+将 `./gear-feeds-channel/src/lib.rs` 文件的TODO内容改成自己的内容
 
 ### 编译合约
 
