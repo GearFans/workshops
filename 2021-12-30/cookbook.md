@@ -1,4 +1,4 @@
-## Gear Twitter
+## Gear 去中心化 Twitter
 
 ### 安装 Rust
 
