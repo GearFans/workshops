@@ -9,7 +9,7 @@ class: 'text-center'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # show line numbers in code blocks
-lineNumbers: false
+lineNumbers: true
 # some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
@@ -18,7 +18,7 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 # persist drawings in exports and build
 drawings:
-  persist: false
+  persist: true
 
 ---
 
@@ -80,6 +80,10 @@ https://idea.gear-tech.io/
 
 [Rust 初学者如何编写 Gear 智能合约（1）](https://mp.weixin.qq.com/s/Yal1kLNcbDijO8iuPmtlaQ)
 
+---
+
+### 合约基础结构
+
 ```rust
 #![no_std]
 gstd::metadata! {
@@ -102,6 +106,7 @@ pub unsafe extern "C" fn init() {}
 
 #[no_mangle]
 pub unsafe extern "C" fn meta_state() -> *mut [i32; 2] {}
+
 ```
 
 ---
@@ -121,6 +126,8 @@ gstd::exec::exit // 终止程序的执行
 ```
 
 详细资料：https://docs.gear.rs/gstd/exec/index.html
+
+---
 
 #### msg
 
@@ -182,6 +189,8 @@ rustup target add wasm32-unknown-unknown --toolchain nightly
 
 用 `Polkadot.js 插件` 创建地址，点击 **Get test account** 按钮，获取测试 coin
 
+---
+
 ### 编译合约
 
 - clone 代码：`git clone https://github.com/gear-tech/apps`
@@ -195,6 +204,8 @@ rustup target add wasm32-unknown-unknown --toolchain nightly
 -rw-r--r--  fungible_token.opt.wasm # 主合约文件，后缀 opt.wasm 结尾
 -rwxr-xr-x  fungible_token.wasm # meta + opt 的“合体”文件
 ```
+
+---
 
 ### 上传合约
 
