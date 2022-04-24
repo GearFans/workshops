@@ -27,10 +27,12 @@ rustc -V
 
 ## workshop 活动列表
 
-- CN Online Workshop 2021-12-30 [docs](2021-12-30)
+- [Gear 合约快速入门](https://wiki.gear-tech.io/zh-cn/getting-started-in-5-minutes/)
 
-- CN Online Workshop 2022-03-09 [docs](2022-03-09)
+- CN Online Workshop [2021-12-30](2021-12-30)
 
-- CN Online Workshop 2022-03-26 [docs](2022-03-26)
+- CN Online Workshop [2022-03-09](2022-03-09)
 
-- CN Online Workshop 2022-04-09 [docs](2022-04-09)
+- CN Online Workshop [2022-03-26](2022-03-26)
+
+- CN Online Workshop [2022-04-09](2022-04-09)
